@@ -15,6 +15,14 @@ It is **not** a scientific or clinical model—just an educational experiment to e
 python .\experiments\tb_spread_sim.py
 ```
 
+## Plot (Optional)
+
+```powershell
+python .\experiments\tb_plot.py
+```
+
+If `matplotlib` is not installed, the script prints a summary instead.
+
 ## Output
 
 - `tb_simulation.csv` — time series for `S/L/A/R`
